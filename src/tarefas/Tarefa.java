@@ -1,4 +1,4 @@
-public package Tarefa;
+package tarefas;
 
 public abstract class Tarefa {
     private String titulo;
@@ -22,6 +22,4 @@ public abstract class Tarefa {
     public String toString() {
         return "[" + getPrioridade() + "] " + titulo + (concluida ? " ✓" : "");
     }
-} {
-    
 }
